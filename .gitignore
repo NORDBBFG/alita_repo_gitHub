@@ -1,0 +1,65 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore Visual Studio temporary files, directories, and files
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer package files
+*.pdb
+*.mdb
+
+# .NET Core / ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET temporary files
+# web.config and other config files might be created in this directory
+App_Data/
+
+# User-specific Visual Studio for Mac files
+.vscode/
+
+# Rider IDE
+.idea/
+
+# Ignore ReSharper files
+_ReSharper/
+
+# User-specific files created by JetBrains Rider or ReSharper
+.idea/
+
+# Ignore node_modules for frontend packages
+node_modules/
+
+# Ignore test results
+TestResults/
+
+# Ignore Npm/Yarn lock files
+npm-debug.log
+yarn-error.log
+
+# .NET Core development build outputs
+*.csproj.user
+*.suo
+
+# Ignore compiled files from tests
+*.dll
+*.exe
+*.pdb
+*.testsettings

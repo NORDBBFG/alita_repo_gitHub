@@ -27,7 +27,9 @@ namespace RestApiNUnitTests
                 Description = "A book about API testing",
                 PageCount = 200,
                 Excerpt = "This is an excerpt",
-                PublishDate = DateTime.UtcNow
+                PublishDate = DateTime.UtcNow,
+                Age = 1,
+                Author = "John Doe"
             };
 
             var response = await _bookApiClient.CreateBookAsync(newBook);
@@ -38,6 +40,8 @@ namespace RestApiNUnitTests
             responseBody.Title.Should().Be(newBook.Title); 
             responseBody.Description.Should().Be(newBook.Description); 
             responseBody.PageCount.Should().Be(newBook.PageCount); 
+            responseBody.Age.Should().Be(newBook.Age);
+            responseBody.Author.Should().Be(newBook.Author); 
         }
     }
 }

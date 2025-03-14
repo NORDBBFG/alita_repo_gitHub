@@ -8,5 +8,7 @@
         public int PageCount { get; set; }
         public string Excerpt { get; set; }
         public DateTime PublishDate { get; set; }
+        public int Age { get; set; }
+        public string Author { get; set; }
     }
 }

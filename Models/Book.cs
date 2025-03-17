@@ -10,5 +10,6 @@
         public DateTime PublishDate { get; set; }
         public int Age { get; set; }
         public string Author { get; set; }
+    public string AssertTitle { get; set; }
     }
 }
